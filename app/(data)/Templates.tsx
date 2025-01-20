@@ -62,11 +62,11 @@ export default [
     },
     // Social Media Caption Generator
     {
-        name: 'Social Media Caption Generator',
+        name: 'Instagram Caption Generator',
         desc: 'An AI tool that creates catchy captions for your social media posts',
         category: 'Social Media',
         icon: 'https://cdn-icons-png.flaticon.com/128/2111/2111463.png',
-        aiPrompt: 'Generate 3 catchy and engaging social media captions in bullet format based on the provided content and platform',
+        aiPrompt: 'Generate 3 catchy and engaging instagram captions in bullet format based on the provided content',
         slug: 'generate-social-captions',
         form: [
             {
@@ -75,13 +75,6 @@ export default [
                 name: 'contentDescription',
                 required: true
             },
-            {
-                label: 'Select social media platform',
-                field: 'dropdown',
-                name: 'platform',
-                options: ['Instagram', 'Facebook', 'Twitter', 'LinkedIn'],
-                required: true
-            }
         ]
     },
     // Blog Outline Creator
@@ -108,7 +101,7 @@ export default [
     },
     // Instagram Hashtag Generator
     {
-        name: 'Instagram Hashtag Generator',
+        name: 'Instagram # Generator',
         desc: 'An AI tool that suggests trending and relevant hashtags for Instagram posts for Instagram posts',
         category: 'Social Media',
         icon: 'https://cdn-icons-png.flaticon.com/128/1077/1077042.png',
@@ -126,7 +119,7 @@ export default [
     // Email Subject Line Generator
     {
         name: 'Email Subject Line Generator',
-        desc: 'An AI tool to create attention-grabbing email subject lines',
+        desc: 'An AI tool to create attention-grabbing email subject lines with a high open rate',
         category: 'Email',
         icon: 'https://cdn-icons-png.flaticon.com/128/732/732200.png',
         aiPrompt: 'Generate 5 engaging email subject lines in bullet format based on the provided email content and target audience',
@@ -143,7 +136,7 @@ export default [
     // PPC Ad Copy Generator
     {
         name: 'PPC Ad Copy Generator',
-        desc: 'An AI tool to craft compelling ad copy for PPC campaigns',
+        desc: 'An AI tool to craft compelling ad copy for PPC campaigns that converts',
         category: 'Advertising',
         icon: 'https://cdn-icons-png.flaticon.com/128/1055/1055685.png',
         aiPrompt: 'Generate 3 ad copies in bullet format for PPC campaigns based on the provided product or service and target audience.',
